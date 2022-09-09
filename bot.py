@@ -73,17 +73,12 @@ async def start(bot: Client, cmd: Message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton("BotsList Channel", url="https://t.me/PayForBotz")
-                    ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
+                    [   InlineKeyboardButton("About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/TeleRoid14"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/TeleRoidGroup")
+                        InlineKeyboardButton("Main Channel", url="https://t.me/pc_games_repacks"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/pc_games_chat")
                     ]
                 ]
             )
